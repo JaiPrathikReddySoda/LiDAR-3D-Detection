@@ -2,7 +2,7 @@
 This repository contains scripts and configurations for running 3D object detection experiments with MMDetection3D on the SJSU lab server (edgeaiserver).
 
 ## Environment (server)
-- **Base repo**: `/home/student/mmdetection3d` (provided )
+- **Base repo in EdgeAIServer**: `/home/student//018187975/LiDAR-3D-Detection` (provided )
 - **My working copy**: `/home/JaiPrathiksoda/Lambda`
 - **Conda env**: `` (PyTorch + mmcv + mmdet3d)
 
@@ -18,7 +18,7 @@ Runs inference for a given {config, checkpoint, dataset} and saves:
 **Example (PointPillars on KITTI):**
 
 ```bash
-cd /home/student/017443959/my_3d_det/mmdet3d_hw
+cd /home/student//018187975/LiDAR-3D-Detection
 conda activate open-mmlab
 
 python run_inference_save_artifacts.py \
