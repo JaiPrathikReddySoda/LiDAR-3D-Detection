@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Datasets / heavy raw data (do NOT commit)
+data/
+*.pth
+*.pkl
+*.npz
+*.bin
+*.pcd
+*.ply
+
+# Conda / venv
+.env
+.venv
+venv/
+env/
+*.log
